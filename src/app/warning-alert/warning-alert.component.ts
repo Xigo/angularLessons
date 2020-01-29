@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: '.app-warning-alert',
+  // tslint:disable-next-line: component-selector
+  selector: `.app-warning-alert`,
   templateUrl: './warning-alert.component.html',
   styleUrls: ['./warning-alert.component.css']
 })
